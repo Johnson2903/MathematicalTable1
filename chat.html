@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chatapp</title>
+	<link rel="stylesheet" type="text/css" href="css/chat.css">
+	<script type="text/javascript" src="chat.js"></script>
+</head>
+<body>
+	<div id="main">
+		  <div id="first-phone">
+		  	<div>
+
+		  	</div>
+
+		  <span class="user1"><img src="image/user.png"> 
+		  	<h3 id="fh">First User</h3>
+		  </span>
+              <div id="register1">
+		  		<h1>sign up first to chat</h1>
+                <input type="text" id="rg1" placeholder="chooose a username"><img src="image/check.png" id="pix"> <br><br>
+                <input type="text" id="psw1" placeholder="choose password" oninput="mypix()"><br><br>
+                <input type="password" id="cpsw1" placeholder="confirm password" oninput="myview2()">
+                 <button id="view" onclick="myview()">view</button><br><br>
+                <input type="button" value="submit" onclick="mylogin()">
+
+
+		  		</div>
+
+
+		  <div id="phone1">
+		  	
+		  </div>
+		 	 <div id="send"><input type="text" id="fp">
+           <button onclick="myfunction()" id="btn1"><img src="image/sent.png" width="35px;"></button></div>
+		  </div>
+
+
+		 	 
+  	<!-- SECOND PHONE -->
+ 
+  <div id="second-phone">
+ <span class="user2"><img src="image/user.png"> 
+	<h3 id="fh2">Second User</h3></span>
+
+	<div id="register2">
+		  		<h1>sign up first to chat</h1>
+                <input type="text" id="rg2" placeholder="chooose a username"><img src="image/check.png" id="pix2"> <br><br>
+                <input type="text" id="psw2" placeholder="choose password" oninput="mypix2()"><br><br>
+                <input type="password" id="cpsw2" placeholder="confirm password" oninput="myview3()">
+                 <button id="view2" onclick="myview2()">view</button><br><br>
+                <input type="button" value="submit" onclick="mylogin2()">
+
+
+		  		</div>
+	<div id="phone2">
+		
+
+	</div>
+   <div id="send2">
+   	<input type="text" id="sp">
+	<button onclick="mysecondfunction()" id="btn2"><img src="image/sent.png" width="35px;"></button></div>
+  	
+   
+
+  </div>
+  	
+</div>
+
+<div class="footer"> Develope by Johnson &copy 2019</div>
+</body>
+</html>
